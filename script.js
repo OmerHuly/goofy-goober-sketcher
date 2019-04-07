@@ -53,7 +53,7 @@ const sketch = function(p) {
     btnClear.addEventListener('click', restart);
     // btnRetry.addEventListener('click', retryMagic);
     btnSave.addEventListener('click', () => {
-      p.saveCanvas('magic-sketchpad', 'jpg');
+      p.saveCanvas('goofy-goober', 'jpg');
     });
   };
   

@@ -13,7 +13,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
     display: flex;
     flex-direction: column;
-    --primary: #4545CC;
+    /*--primary: #4545CC;*/
     --secondary: #8EE3C8;
   }
   
@@ -42,7 +42,7 @@ html, body {
   }
   
   header {
-    background-color: #F19CC5;
+    background-color: rgb(15, 233, 204);
     width: 100%;
     padding: 0 20px;
     border-bottom: 8px solid var(--secondary);
@@ -110,7 +110,7 @@ html, body {
     min-width: 30px;
     min-height: 30px;
     border: 4px solid transparent;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     margin: 4px 2px;
     padding: 0;
     will-change: transform;
